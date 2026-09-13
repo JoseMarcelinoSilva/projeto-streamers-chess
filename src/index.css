@@ -23,13 +23,13 @@
   --avatar-size: 64px;
   --status-size: 12px;
   --gap-cards: 16px;
-  --max-width: 480px;
+  --max-width: 720px;
   --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 }
 
 @media (min-width: 640px) {
   :root {
-    --max-width: 560px;
+    --max-width: 880px;
     --padding-card: 24px;
     --padding-page: 24px;
     --avatar-size: 80px;
@@ -97,8 +97,8 @@ body {
 }
 
 .streamer-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: var(--gap-cards);
   width: 100%;
   margin: 0;
@@ -119,8 +119,28 @@ body {
 
 .streamer-heading {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.streamer-status-text {
+  display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-transform: lowercase;
+}
+
+.streamer-status-text.is-live {
+  color: var(--color-live-ring);
+}
+
+.streamer-status-text.is-offline {
+  color: var(--color-offline-ring);
 }
 
 .streamer-status {

@@ -1,6 +1,6 @@
 # Chess.com Streamers
 
-Aplicação frontend que consome a [API pública do Chess.com](https://api.chess.com/pub/streamers) e lista streamers em cards empilhados, com status ao vivo, avatar e link da Twitch.
+Aplicação frontend que consome a [API pública do Chess.com](https://api.chess.com/pub/streamers) e lista streamers em cards, com status online/offline, avatar e link da Twitch.
 
 O projeto demonstra **state**, **effects** e **listas dinâmicas** em React: um único `fetch` no mount, estados de loading/erro e paginação de 10 cards por vez.
 
@@ -46,7 +46,7 @@ Não é necessária autenticação. A aplicação busca a lista uma vez ao monta
 ## Funcionalidades
 
 - Header com o nome **Chess.com Streamers**
-- Cards com bolinha de status (ao vivo / offline), username, avatar e link da Twitch
+- Cards em duas colunas, com status **online** / **offline** abaixo do username, avatar e link da Twitch
 - Estados de **loading** (spinner), **erro** com botão *Tentar novamente* e **sucesso**
 - Paginação *Anteriores* / *Próximos* (10 cards por página)
 - Footer com crédito do desenvolvedor e link do GitHub

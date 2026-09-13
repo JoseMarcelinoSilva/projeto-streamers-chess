@@ -48,17 +48,21 @@ function StreamerAvatar({
 
 export function StreamerCard({ streamer }: StreamerCardProps) {
   const { username, avatar, twitch_url, is_live } = streamer
-  const statusLabel = is_live ? 'Ao vivo' : 'Offline'
+  const statusLabel = is_live ? 'online' : 'offline'
 
   return (
     <article className="streamer-card">
       <div className="streamer-heading">
-        <span
-          className={`streamer-status ${is_live ? 'is-live' : 'is-offline'}`}
-          role="img"
-          aria-label={statusLabel}
-        />
         <h2 className="streamer-username">{username}</h2>
+        <p
+          className={`streamer-status-text ${is_live ? 'is-live' : 'is-offline'}`}
+        >
+          <span
+            className={`streamer-status ${is_live ? 'is-live' : 'is-offline'}`}
+            aria-hidden="true"
+          />
+          {statusLabel}
+        </p>
       </div>
 
       <StreamerAvatar username={username} avatar={avatar} />
