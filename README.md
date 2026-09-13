@@ -6,6 +6,8 @@ O projeto demonstra **state**, **effects** e **listas dinâmicas** em React: um 
 
 ![Tela da listagem de streamers do Chess.com](.docs/screenshot.png)
 
+**App no ar:** [https://josemarcelinosilva.github.io/projeto-streamers-chess/](https://josemarcelinosilva.github.io/projeto-streamers-chess/)
+
 ## Stack
 
 - **React** + **Vite** + TypeScript
@@ -51,7 +53,13 @@ Não é necessária autenticação. A aplicação busca a lista uma vez ao monta
 
 ## Deploy
 
-O link de produção será adicionado aqui após a publicação.
+O app está publicado no GitHub Pages:
+
+**https://josemarcelinosilva.github.io/projeto-streamers-chess/**
+
+Repositório: [github.com/JoseMarcelinoSilva/projeto-streamers-chess](https://github.com/JoseMarcelinoSilva/projeto-streamers-chess)
+
+Também é possível importar o mesmo repositório na [Vercel](https://vercel.com/new) ou na [Netlify](https://app.netlify.com/start) para um deploy contínuo a partir do `main`.
 
 ## Autor
 

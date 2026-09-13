@@ -191,24 +191,24 @@ Objetivo: documentar e publicar o projeto.
 
 ### Task 6.1 — Escrever o README
 
-- Nome, descrição curta, screenshot (se houver)
-- Como rodar (`npm install`, `npm run dev`)
-- Menção à API pública do Chess.com
-- Stack: React, Vite, `useState`, `useEffect`, `fetch`
+- [x] Nome, descrição curta, screenshot (se houver)
+- [x] Como rodar (`npm install`, `npm run dev`)
+- [x] Menção à API pública do Chess.com
+- [x] Stack: React, Vite, `useState`, `useEffect`, `fetch`
 
 **Pronto quando:** um visitante do repo consegue entender e rodar o projeto.
 
 ### Task 6.2 — Publicar no GitHub
 
-- Repositório com o código do MVP
-- `.gitignore` adequado (não versionar `node_modules`, `.env`)
+- [x] Repositório com o código do MVP
+- [x] `.gitignore` adequado (não versionar `node_modules`, `.env`)
 
 **Pronto quando:** o repositório está público (ou compartilhado) com o código atualizado.
 
 ### Task 6.3 — Deploy (Vercel ou Netlify)
 
-- Publicar o build de produção
-- Validar Header, lista, estados e Footer no ambiente publicado
-- Colocar a URL no README
+- [x] Publicar o build de produção
+- [x] Validar Header, lista, estados e Footer no ambiente publicado
+- [x] Colocar a URL no README
 
 **Pronto quando:** o app está no ar e o link pode ser compartilhado na comunidade B7Web.

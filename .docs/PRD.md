@@ -250,7 +250,7 @@ Nomes e extensão (TS/JS, CSS Modules) podem ser ajustados na implementação, d
 - [ ] Loading e Error são tratados; Error permite tentar novamente
 - [ ] Footer mostra José Marcelino + link do GitHub
 - [ ] Layout mobile-first, acessível e sem bibliotecas extras de fetch/estado
-- [ ] README no repositório e app publicado (GitHub + deploy)
+- [x] README no repositório e app publicado (GitHub + deploy)
 
 ---
 
